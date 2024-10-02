@@ -1,0 +1,22 @@
+{
+  "name": "kiruke",
+  "version": "0.0.1",
+  "description": "Kiruke is a tool for testing prompts for LLM.",
+  "main": "index.js",
+  "bin": {
+    "kiruke": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "build:example": "cd example && npm run build",
+    "start:example": "cd example && npm start"
+  },
+  "keywords": ["llm", "prompt", "test"],
+  "author": "Kawakami Moeki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
